@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class TaisBlockByttonScript : MonoBehaviour
+public class TaisBlockButtonScript : MonoBehaviour
 {
     public void StartGame()
     {
