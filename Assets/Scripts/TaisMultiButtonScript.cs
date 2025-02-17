@@ -3,18 +3,25 @@ using UnityEngine.SceneManagement;
 
 public class TaisMultiButtonScript : MonoBehaviour
 {
+    // TaisMultiシーンをロードする
     public void StartTaisMulti()
     {
         SceneManager.LoadScene("TaisMulti");
     }
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    // MiyamaGameシーンをロードする
+    public void StartMiyamaGame()
+    {
+        SceneManager.LoadScene("MiyamaGame");
+    }
+
+    // Start は最初に1回だけ実行
     void Start()
     {
         
     }
 
-    // Update is called once per frame
+    // Update は毎フレーム実行
     void Update()
     {
         
