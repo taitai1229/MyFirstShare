@@ -18,7 +18,7 @@ public class BallController : MonoBehaviour
     void Update()
     {
         // ボールが y = -10 より下に落ちたらゲームオーバーシーンへ
-        if (transform.position.y < -10)
+        if (transform.position.y < -5)
         {
             SceneManager.LoadScene("GameOverScene");
         }
